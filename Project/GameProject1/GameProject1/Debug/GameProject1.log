@@ -1,0 +1,12 @@
+﻿  GameProject1.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(163): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(168): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(219): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(226): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(253): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(255): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(421): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(428): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(456): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  GameProject1.vcxproj -> D:\Leeyeseul\GameMaker\Functional_contest\Project\GameProject1\Debug\GameProject1.exe

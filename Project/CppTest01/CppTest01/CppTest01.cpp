@@ -1,0 +1,52 @@
+﻿// CppTest01.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+//
+
+#include <iostream>
+#include <vector>
+using namespace std;
+//배고파...배고파... 아니안배고파
+//내 가방속엔 그빵이 있응께
+//배안고파 배안고파 아아아아아아악
+//안고프다...
+int main()
+{
+   // std::cout << "Hello World!\n";
+	int a[10];
+	vector<int> ar;
+	
+	ar.push_back(10); 
+	//push_back이라는 게 배열 길이를 하나씩 늘리는 거
+	ar.push_back(20);
+	ar.push_back(30);
+
+	for (auto a : ar) //for(int i=0;i<ar.size();i++)
+		printf("%d  ", a); //printf("%5d",ar[i]);
+	printf("\n");
+
+	ar.pop_back();//마지막 값을 꺼낸다.
+
+	for (auto a : ar) 
+		printf("%d  ", a); 
+	printf("\n");
+
+	ar.push_back(40);
+	ar.push_back(50);
+
+	// vector<int>::reverse_iterator iter;
+	for (auto iter = ar.begin(); iter != ar.end(); iter++)
+		printf("%d  ", *iter);
+	printf("\n");
+
+	return 0;
+}
+
+// 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
+// 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
+
+// 시작을 위한 팁: 
+//   1. [솔루션 탐색기] 창을 사용하여 파일을 추가/관리합니다.
+//   2. [팀 탐색기] 창을 사용하여 소스 제어에 연결합니다.
+//   3. [출력] 창을 사용하여 빌드 출력 및 기타 메시지를 확인합니다.
+//   4. [오류 목록] 창을 사용하여 오류를 봅니다.
+//   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
+//   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.
