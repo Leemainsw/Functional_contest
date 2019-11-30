@@ -9,6 +9,7 @@
 #include <stack>
 #include <vector>
 #include <algorithm>
+#include <memory>
 using namespace std;
 
 #include "CSprite.h"
@@ -44,13 +45,13 @@ D3DCOLOR g_ClearColor = D3DCOLOR_XRGB(0, 0, 0);
 //CGameObject *MonsterObject[20];
 std::vector<CGameObject*> MonsterObject;
 
-CGameObject* PlayerObject;
+shared_ptr<CGameObject> PlayerObject;
+//shared_ptr : <>안에 들어온 값을 sharedptr로 만들다.
 
 //CGameObject* ShootObject[20];
 std::vector<CGameObject*> ShootObject;
 stack<CGameObject*> g_ShootPool; //총알 Stack
 D3DXVECTOR3 MonsterDir = { 1.f, 0.f, 0.f };
-
 
 CInput* g_Input;
 
@@ -104,9 +105,17 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 		MonsterObject.push_back(_MonsterObject);
 	}
 
-	PlayerObject = new CGameObject(g_pD3DDevice, _T("Airplane.bmp")
-		, { 320.f, 440.f ,0.f });
+	PlayerObject = make_shared<CGameObject>(
+		new CGameObject(g_pD3DDevice, _T("Airplane.bmp")
+			, { 320.f, 440.f ,0.f }));
+
+	//PlayerObject = shared_ptr<CGameObject>(
+	//	new CGameObject(g_pD3DDevice, _T("Airplane.bmp")
+	//		, { 320.f, 440.f ,0.f })
+	//	);
+
 	PlayerObject->SetSpeed(200.f);
+	PlayerObject->SetAlive(true);
 
 	for (int i = 0; i < 50; i++) {
 		auto _ShootObject = new CGameObject(g_pD3DDevice, _T("Bullet.bmp")
@@ -257,7 +266,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	
 	MonsterObject.clear();
 
-	delete PlayerObject;
+	// delete PlayerObject; 
 	delete g_Input;
 	
 	CTexture::ReleaseAll();
