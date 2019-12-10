@@ -1,4 +1,4 @@
-# Functional_contest
+# Functional_contest 👾
 Functional_contest | 기능대회
 
  - 2019년 07월 13일 1번째 수업
