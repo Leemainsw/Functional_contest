@@ -1,14 +1,16 @@
-﻿  GameProject1.cpp
+﻿  CGameObject.cpp
+  CSprite.cpp
+  GameProject1.cpp
   C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(172): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(177): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(228): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(235): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(262): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(264): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(430): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(437): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(465): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(173): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(178): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(229): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(236): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(263): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(265): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(431): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(438): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(466): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1547): error C2664: 'CGameObject::CGameObject(const CGameObject &)': 인수 1을(를) '_Ty'에서 'const CGameObject &'(으)로 변환할 수 없습니다.
           with
           [
@@ -30,4 +32,5 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty=CGameObject
           ]
-  D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(110): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::shared_ptr<CGameObject> std::make_shared<CGameObject,CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하십시오.
+  D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(111): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::shared_ptr<CGameObject> std::make_shared<CGameObject,CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하십시오.
+  코드를 생성하고 있습니다...

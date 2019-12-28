@@ -1,15 +1,16 @@
 ﻿// GameProject1.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
 
-#include "framework.h"
-#include "GameProject1.h"
-
 #include <d3d9.h>
 #include <d3dx9.h>
 #include <stack>
 #include <vector>
 #include <algorithm>
 #include <memory>
+
+#include "framework.h"
+#include "GameProject1.h"
+
 using namespace std;
 
 #include "CSprite.h"
