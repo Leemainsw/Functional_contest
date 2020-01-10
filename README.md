@@ -14,4 +14,4 @@ Functional_contest | 기능대회 수업✨
  - 2019년 12월 21일 11번째 수업
  - 2019년 12월 28일 12번째 수업
 
-* DirectX * 
+### DirectX 설치 방법 * 
