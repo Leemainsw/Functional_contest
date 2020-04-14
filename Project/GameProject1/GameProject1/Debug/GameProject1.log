@@ -1,36 +1,39 @@
-﻿  CGameObject.cpp
-  CSprite.cpp
-  GameProject1.cpp
+﻿  GameProject1.cpp
   C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(173): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(178): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(229): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(236): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(263): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(265): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(431): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(438): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(466): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1547): error C2664: 'CGameObject::CGameObject(const CGameObject &)': 인수 1을(를) '_Ty'에서 'const CGameObject &'(으)로 변환할 수 없습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(173,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(178,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(229,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(236,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(263,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(265,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(431,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(438,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(466,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(204,12): error C2664: 'CGameObject::CGameObject(const CGameObject &)': 인수 1을(를) '_Ty'에서 'const CGameObject &'(으)로 변환할 수 없습니다.
           with
           [
               _Ty=CGameObject *
           ]
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1546): note: 원인: '_Ty'에서 'const CGameObject'(으)로 변환할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(202,109): message : 원인: '_Ty'에서 'const CGameObject'(으)로 변환할 수 없습니다.
           with
           [
               _Ty=CGameObject *
           ]
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1546): note: 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1601): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(202,109): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\CGameObject.h(67,1): message : 'CGameObject::CGameObject' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1490): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Construct_in_place<_Ty,CGameObject*>(_Ty &,CGameObject *&&) noexcept(false)'에 대한 참조를 확인하세요.
           with
           [
               _Ty=CGameObject
           ]
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\memory(1602): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1590): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하세요.
           with
           [
               _Ty=CGameObject
           ]
-  D:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(111): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::shared_ptr<CGameObject> std::make_shared<CGameObject,CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하십시오.
-  코드를 생성하고 있습니다...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1591): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=CGameObject
+          ]
+E:\Leeyeseul\git\Functional_contest_git\Functional_contest\Project\GameProject1\GameProject1\GameProject1.cpp(111): message : 컴파일되는 함수 템플릿 인스턴스화 'std::shared_ptr<CGameObject> std::make_shared<CGameObject,CGameObject*>(CGameObject *&&)'에 대한 참조를 확인하세요.
